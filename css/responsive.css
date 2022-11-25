@@ -1,0 +1,169 @@
+@media all and (max-width:1140px) {
+    .icons {
+        font-size: 35px;
+    }
+
+    .contact-about {
+        font-size: 25px;
+    }
+
+    .tools h3 {
+        font-size: 20px;
+    }
+
+    .contact-text p {
+        font-size: 8px;
+        letter-spacing: 0px;
+    }
+
+    .logos img {
+        max-width: 25px;
+        max-height: 25px;
+    }
+
+    .count-box {
+        margin: 47px 0;
+    }
+
+    .box {
+        margin: 10px;
+    }
+
+    .contact-content {
+        margin-right: 10px;
+    }
+
+    .contact-content {
+        padding: 0;
+    }
+
+    .contact-social {
+        padding-top: 57px;
+    }
+
+    .first-contact ul li {
+        font-size: 10px;
+    }
+
+    .fullBox {
+        padding-left: 50px;
+    }
+}
+
+@media all and (max-width:991px) {
+    .contact-content2 {
+        width: 98%;
+    }
+
+    .contact-box {
+        flex-direction: column;
+    }
+
+    .php-email-form {
+        margin-top: 20px;
+    }
+}
+
+@media all and (max-width:768px) {
+    .service-box {
+        flex-direction: column;
+    }
+
+    .img {
+        grid-row: span 3;
+        grid-column: span 6;
+    }
+
+    .fullBox {
+        grid-row: span 3;
+        grid-column: span 6;
+        padding-left: 0px;
+    }
+
+    .about-section {
+        padding: 0;
+    }
+
+    .about-heading p {
+        padding: 0 5px;
+    }
+
+    .header {
+        padding-bottom: 300px ;
+    }
+
+    .about-content img {
+        width: 100%;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu ul li {
+        margin: 5px 0;
+    }
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media all and (max-width:575px) {
+    .contact {
+        flex-direction: column;
+    }
+
+    .social-links {
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (max-width:450px) {
+    .about-heading {
+        padding: 0px;
+    }
+    
+    .social-links a {
+        margin: 8px;
+    }
+
+    .about-heading h2, .contact-header h2, .service-header h2 {
+        font-size: 23px;
+    }
+
+    .email, .phone {
+        width: auto;
+        word-wrap: break-word;
+    }
+
+    .php-email-form {
+        box-shadow: none;
+        padding: 0px;
+    }
+
+    .logos {
+        justify-content: space-evenly;
+    }
+
+    .contact-section {
+        padding: 0 20px;
+    }
+
+    .box {
+        padding: 0px;
+    }
+
+    .service-box {
+        padding: 0px;
+    }
+
+    .service-header p {
+        padding: 0 10px;
+    }
+
+    .about-content {
+        padding: 0 10px;
+    }
+}
